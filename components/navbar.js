@@ -11,7 +11,7 @@ export default function NavBar() {
         <Toolbar className={styles.toolbar}>
           <Container className={styles.container}>
             <Typography variant="h3" sx={{ flexGrow: 1, alignSelf: "center" }}>
-              Mum&apos;s Diaryyy
+              Mum&apos;s Diaryyyy
             </Typography>
             <Stack direction="row" spacing={2} sx={{ alignItems: "center" }}>
               <Typography variant="h6" sx={{ flexGrow: 1 }}>

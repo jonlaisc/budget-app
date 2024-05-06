@@ -1,0 +1,37 @@
+.title {
+    padding-left: 0.6em;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    padding: 0.6em;
+}
+
+.dialog {
+    min-width: 24em;
+    padding: 2em;
+}
+
+.receiptImage {
+    align-items: center;
+}
+
+.categoryTile {
+    cursor: pointer; // This allows cursor interaction
+    padding: 0.5em; // Add padding for better appearance
+    border-radius: 0.5em; // Add border radius for rounded corners
+    transition: background-color 0.3s ease; // Add transition for smooth effect
+}
+
+.categoryTiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two columns with equal width */
+    gap: 8px; /* Adjust the gap between category tiles */
+}
+
+.selectedCategory {
+    background-color: lightblue; // Change background color to indicate selection
+    // You can add additional styles for the selected category here
+}

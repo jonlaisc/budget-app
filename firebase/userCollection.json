@@ -1,0 +1,26 @@
+{
+    "uid": {
+        "email": "email",
+        "uid": "uid",
+        "Entries": {
+            "ExpensesUid": {
+                "entryType": "Expenses",
+                "category": "Eat Out",
+                "sub_category": "macass",
+                "created_time": 1,
+                "amount": 1.0
+            }
+        },
+        "Expenses Categories": [
+            {
+                "name": "Eat Out",
+                "colour": "#FFFFFF",
+                "order": 1,
+                "subCategories":[
+                    "maccas"
+                ]
+            }
+        ],
+        "Incomes Categories": []
+    }
+}
